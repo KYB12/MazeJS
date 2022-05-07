@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.Maze {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1200px;
+  height:720px;
+}
+
+.Node {
+  width:12px;
+  height:12px;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+.Corner {
+  background-color:DarkGray;
+  width:1px;
+  height:1px;
+}
+
+.HorizontalWall {
+  background-color:DarkGray;
+  width:10px;
+  height:1px;
+}
+
+.VerticalWall {
+  background-color:DarkGray;
+  width:1px;
+  height:10px;
+}
+
+.Vertex {
+  background-color:LightGray;
+  width:10px;
+  height:10px;
+}
+
+.Open {
+  background-color:LightGray;
+}
+
+.Closed {
+  background-color:DarkGray;
+}
+
+.Visited {
+  background-color:LightBlue;
+}
+
